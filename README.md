@@ -1,0 +1,2 @@
+# example-snap
+Example Snap
