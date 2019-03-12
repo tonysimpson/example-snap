@@ -1,0 +1,20 @@
+name: exampletreemaker
+version: git
+summary: Prints command line trees
+description: >
+        Example snap that has a simple tree printer written in Python 3.
+
+grade: stable
+confinement: strict
+
+parts:
+  exampletreemaker:
+    plugin: python
+    python-version: python3
+    source-type: git
+    source: .
+
+apps:
+  exampletreemaker:
+    command: python3 -m treemaker
+

@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#snap
+snap
+*.snap
+*.tar.bz2
