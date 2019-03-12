@@ -8,7 +8,7 @@ grade: stable
 confinement: strict
 
 parts:
-  exampletreemaker:
+  treemaker:
     plugin: python
     python-version: python3
     source-type: git
