@@ -1,5 +1,6 @@
 name: exampletreemaker
-version: git
+version-script: python3 setup.py -V 
+version: 0
 summary: Prints command line trees
 description: >
         Example snap that has a simple tree printer written in Python 3.
