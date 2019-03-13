@@ -1,21 +1,18 @@
-name: exampletreemaker
+name: printtree
 version-script: python3 setup.py -V 
 version: 0
-summary: Prints command line trees
+summary: Prints a tree
 description: >
-        Example snap that has a simple tree printer written in Python 3.
-
+        Print a single random ascii tree to stdout.
 grade: stable
 confinement: strict
-
 parts:
   treemaker:
     plugin: python
     python-version: python3
     source-type: git
     source: .
-
 apps:
-  exampletreemaker:
+  printtree:
     command: python3 -m treemaker
 
